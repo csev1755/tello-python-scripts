@@ -9,7 +9,7 @@ tello.takeoff()
 
 for y in range(x):
 
-    print(f"[INFO] Battery is at {tello.get_battery()}%. {x - y}/{x} laps to go.")
+    print(f"Battery is at {tello.get_battery()}%. {x - y}/{x} laps to go.")
     tello.move_forward(100)
     tello.rotate_counter_clockwise(180)
     tello.move_forward(100)
